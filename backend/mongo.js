@@ -1,5 +1,5 @@
 const mongoose=require("mongoose");
-mongoose.connect("mongodb+srv://Thunish:ZKxPh0wHJ5NB6hAX@cluster0.bvmakoh.mongodb.net/todo-app");
+mongoose.connect({your mongo db key});
 const todoSchema=mongoose.Schema({
     title:String,
     description:String,
